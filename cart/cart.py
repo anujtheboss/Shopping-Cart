@@ -249,7 +249,7 @@ class Cart():
         return quantities
 
     def update(self, product, quantity):
-        product_id = str(product.id)
+        product_id = str(product)
         product_qty = int(quantity)
 
         # Get cart
